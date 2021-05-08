@@ -1,4 +1,4 @@
-const socket = io('ws:///002ttwclr1.execute-api.us-east-2.amazonaws.com/dev/');
+const socket = io('ws://localhost:4000');
 
 const dom = {
     enterMessage: document.querySelector('.enter-message'),
