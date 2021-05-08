@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:4000');
+const socket = io('https://002ttwclr1.execute-api.us-east-2.amazonaws.com/dev/mad');
 
 socket.on("connect", () => {
 
