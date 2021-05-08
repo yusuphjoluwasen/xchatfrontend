@@ -1,5 +1,11 @@
 const socket = io('ws://localhost:4000');
 
+socket.on("connect", () => {
+
+    console.log("Hello JS")
+
+});
+
 const dom = {
     enterMessage: document.querySelector('.enter-message'),
     sendMessageButton: document.querySelector('.send-message-button'),
