@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="heading">
+    <p >Chat App</p>
+</div>
+
+<div class="field-parent clearfix">
+
+    <div class="child-1">
+        <input class="enter-username form-control form-style" placeholder="Enter Username"/>
+    </div>
+
+    <div class="child-2">
+        <input type="button" value="Enter Username" class="enter_username-button button-style">
+    </div>
+</div>
+
+<ul class="username">
+</ul>
+
+<ul id="message-list">
+</ul>
+
+<div class="field-parent">
+    <p class="user-typing">several people are typing</p>
+    <div class="child-1">
+        <input class="enter-message form-control form-style" placeholder="Enter a message..."/>
+    </div>
+
+    <div class="child-2">
+        <input type="button" value="Send Message" class="send-message-button button-style">
+    </div>
+</div>
+
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="index.js"></script>
+</html>

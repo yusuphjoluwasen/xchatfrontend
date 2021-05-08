@@ -1,0 +1,113 @@
+
+body{
+    background-color: #252535;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+    text-rendering: optimizelegibility;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    display: block;
+    clear: both;
+}
+
+#message-list{
+    padding-bottom: 100px;
+}
+
+.personal-message{
+    display: block;
+    background-color: black !important;
+    float: right;
+    color: rosybrown !important;
+    margin-right: 20px !important;
+}
+
+.field-parent{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    /*padding: 25px 10px 5px 10px;*/
+    width: 100%;
+    background-color: #212121;
+}
+
+.child-1{
+    flex: 1 0 80%;
+    position: relative;
+
+    margin-right: 2px
+}
+
+.child-2 {
+    flex: 1 0 20%;
+}
+
+.form-style {
+    /*height: 60px;*/
+    /*padding: 25px 10px;*/
+}
+
+.button-style {
+    background: #5BCC8B;
+    border: 0;
+    color: #252535;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 5px 8px 0px #212121;
+    float: right;
+}
+
+#message-list li{
+    padding: 15px;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    width: 45%;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: olive;
+}
+
+.username{
+    float:none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.my-username {
+    color: #5BCC8B;
+    font-size: 15px;
+}
+
+.user-typing {
+    position: absolute;
+    top: -30px;
+    left: 25px;
+    color: #FFF;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.user-typing i {
+    color: #E6BB46;
+}
