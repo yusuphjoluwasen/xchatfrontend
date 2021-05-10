@@ -1,4 +1,4 @@
-const socket = io('https://002ttwclr1.execute-api.us-east-2.amazonaws.com/dev/mad');
+const socket = io('ws://node-env.eba-8f3idpqh.us-east-2.elasticbeanstalk.com/');
 
 socket.on("connect", () => {
 
