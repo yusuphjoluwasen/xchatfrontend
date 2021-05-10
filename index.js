@@ -1,4 +1,4 @@
-const socket = io('ws://node-env.eba-8f3idpqh.us-east-2.elasticbeanstalk.com/');
+const socket = io('https://node-env.eba-8f3idpqh.us-east-2.elasticbeanstalk.com/');
 
 socket.on("connect", () => {
 
